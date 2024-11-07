@@ -1,18 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-int n ;
-int m;
-Console.WriteLine("az chandomin adad mosalasaty shoru shavad");
-n = int.Parse(Console.ReadLine());
-Console.WriteLine("ta chandomin adad mosalasaty");
-m = int.Parse(Console.ReadLine());
-
-for (int i = 1; i <= m; i++) 
+Console.WriteLine("How many presentations to start?");
+int n = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("How many presentations?");
+int m = Convert.ToInt32(Console.ReadLine());
+for (int i = n; i <= m; i++)
 {
-    int donbalemosalasaty = ((i) * (i + 1)) / 2;
-    Console.WriteLine("adad"+donbalemosalasaty);
+    int k = (i * (i + 1)) / 2;
+    Console.WriteLine(k);
 }
-// amirhossein azarakhsh tamrine6 //
-
+// amirhossein azarakhsh 
 
 
